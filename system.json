@@ -2,7 +2,7 @@
   "name": "doomcricket",
   "title": "DoomCricket",
   "description": "The DoomCricket system for FoundryVTT",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "minimumCoreVersion": "0.8.3",
   "compatibleCoreVersion": "0.8.6",
   "author": "Will Bidstrup",
@@ -23,6 +23,6 @@
   "secondaryTokenAttribute": "power",
   "url": "https://github.com/KrakenMare-Interactive/foundry-vtt-doomcricket",
   "manifest": "https://raw.githubusercontent.com/KrakenMare-Interactive/doom-cricket-foundry-vtt/main/system.json",
-  "download": "https://github.com/KrakenMare-Interactive/doom-cricket-foundry-vtt/archive/refs/tags/v0.0.4.zip",
+  "download": "https://github.com/KrakenMare-Interactive/doom-cricket-foundry-vtt/archive/refs/tags/v0.0.5.zip",
   "license": "LICENSE.txt"
 }
