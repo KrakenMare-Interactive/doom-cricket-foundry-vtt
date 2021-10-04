@@ -1,10 +1,10 @@
-export const BOILERPLATE = {};
+export const DOOMCRICKET = {};
 
 /**
  * The set of Ability Scores used within the sytem.
  * @type {Object}
  */
- BOILERPLATE.abilities = {
+ DOOMCRICKET.abilities = {
   "str": "DOOMCRICKET.AbilityStr",
   "dex": "DOOMCRICKET.AbilityDex",
   "con": "DOOMCRICKET.AbilityCon",
@@ -13,7 +13,7 @@ export const BOILERPLATE = {};
   "cha": "DOOMCRICKET.AbilityCha"
 };
 
-BOILERPLATE.abilityAbbreviations = {
+DOOMCRICKET.abilityAbbreviations = {
   "str": "DOOMCRICKET.AbilityStrAbbr",
   "dex": "DOOMCRICKET.AbilityDexAbbr",
   "con": "DOOMCRICKET.AbilityConAbbr",
