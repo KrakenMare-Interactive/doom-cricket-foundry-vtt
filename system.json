@@ -21,7 +21,7 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "https://github.com/KrakenMare-Interactive/doom-cricket",
+  "url": "https://github.com/KrakenMare-Interactive/foundry-vtt-doomcricket",
   "manifest": "https://raw.githubusercontent.com/KrakenMare-Interactive/doom-cricket/main/foundry-vtt-doomcricket/system.json",
   "download": "https://github.com/KrakenMare-Interactive/doom-cricket/archive/refs/tags/v0.0.4.zip",
   "license": "LICENSE.txt"
