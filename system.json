@@ -1,0 +1,28 @@
+{
+  "name": "doomcricket",
+  "title": "DoomCricket",
+  "description": "The DoomCricket system for FoundryVTT",
+  "version": "0.0.3",
+  "minimumCoreVersion": "0.8.3",
+  "compatibleCoreVersion": "0.8.6",
+  "author": "Will Bidstrup",
+  "esmodules": ["module/doomcricket.mjs"],
+  "styles": ["css/doomcricket.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "https://github.com/KrakenMare-Interactive/doom-cricket",
+  "manifest": "https://raw.githubusercontent.com/KrakenMare-Interactive/doom-cricket/main/foundry-vtt-doomcricket/system.json",
+  "download": "https://github.com/KrakenMare-Interactive/doom-cricket/archive/refs/tags/v0.0.3.zip",
+  "license": "LICENSE.txt"
+}

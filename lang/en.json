@@ -1,0 +1,22 @@
+{
+  "DOOMCRICKET.AbilityStr": "Strength",
+  "DOOMCRICKET.AbilityCon": "Constitution",
+  "DOOMCRICKET.AbilityDex": "Dexterity",
+  "DOOMCRICKET.AbilityInt": "Intelligence",
+  "DOOMCRICKET.AbilityWis": "Wisdom",
+  "DOOMCRICKET.AbilityCha": "Charisma",
+
+  "DOOMCRICKET.AbilityStrAbbr": "str",
+  "DOOMCRICKET.AbilityConAbbr": "con",
+  "DOOMCRICKET.AbilityDexAbbr": "dex",
+  "DOOMCRICKET.AbilityIntAbbr": "int",
+  "DOOMCRICKET.AbilityWisAbbr": "wis",
+  "DOOMCRICKET.AbilityChaAbbr": "cha",
+
+  "DOOMCRICKET.EffectCreate": "Create Effect",
+  "DOOMCRICKET.EffectToggle": "Toggle Effect",
+  "DOOMCRICKET.EffectEdit": "Edit Effect",
+  "DOOMCRICKET.EffectDelete": "Delete Effect",
+
+  "DOOMCRICKET.Add": "Add"
+}
