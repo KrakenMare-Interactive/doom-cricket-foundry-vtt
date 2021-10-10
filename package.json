@@ -1,7 +1,7 @@
 {
-  "name": "worldbuilding",
-  "version": "1.0.0",
-  "description": "CSS compiler for the Worldbuilding system",
+  "name": "doomcricket",
+  "version": "0.0.7",
+  "description": "CSS compiler for the Doom Cricket system",
   "scripts": {
     "css": "gulp css",
     "watch": "gulp",
@@ -10,7 +10,7 @@
   "browserslist": [
     "last 3 versions"
   ],
-  "author": "",
+  "author": "Kraken Mare Interactive",
   "license": "MIT",
   "private": true,
   "dependencies": {

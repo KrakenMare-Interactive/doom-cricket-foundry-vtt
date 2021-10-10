@@ -19,7 +19,7 @@ import { createWorldbuildingMacro } from "./macro.js";
  * Init hook.
  */
 Hooks.once("init", async function() {
-  console.log(`Initializing Simple Worldbuilding System`);
+  console.log(`Initializing Doom Cricket System`);
 
   /**
    * Set an initiative formula for the system. This will be updated later.
@@ -41,12 +41,12 @@ Hooks.once("init", async function() {
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("worldbuilding", SimpleActorSheet, { makeDefault: true });
+  Actors.registerSheet("doomcricket", SimpleActorSheet, { makeDefault: true });
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("worldbuilding", SimpleItemSheet, { makeDefault: true });
+  Items.registerSheet("doomcricket", SimpleItemSheet, { makeDefault: true });
 
   // Register system settings
-  game.settings.register("worldbuilding", "macroShorthand", {
+  game.settings.register("doomcricket", "macroShorthand", {
     name: "SETTINGS.SimpleMacroShorthandN",
     hint: "SETTINGS.SimpleMacroShorthandL",
     scope: "world",
@@ -56,7 +56,7 @@ Hooks.once("init", async function() {
   });
 
   // Register initiative setting.
-  game.settings.register("worldbuilding", "initFormula", {
+  game.settings.register("doomcricket", "initFormula", {
     name: "SETTINGS.SimpleInitFormulaN",
     hint: "SETTINGS.SimpleInitFormulaL",
     scope: "world",
@@ -67,7 +67,7 @@ Hooks.once("init", async function() {
   });
 
   // Retrieve and assign the initiative formula setting.
-  const initFormula = game.settings.get("worldbuilding", "initFormula");
+  const initFormula = game.settings.get("doomcricket", "initFormula");
   _simpleUpdateInit(initFormula);
 
   /**
@@ -110,11 +110,11 @@ Hooks.on("getActorDirectoryEntryContext", (html, options) => {
     icon: '<i class="fas fa-stamp"></i>',
     condition: li => {
       const actor = game.actors.get(li.data("entityId"));
-      return !actor.getFlag("worldbuilding", "isTemplate");
+      return !actor.getFlag("doomcricket", "isTemplate");
     },
     callback: li => {
       const actor = game.actors.get(li.data("entityId"));
-      actor.setFlag("worldbuilding", "isTemplate", true);
+      actor.setFlag("doomcricket", "isTemplate", true);
     }
   });
 
@@ -124,11 +124,11 @@ Hooks.on("getActorDirectoryEntryContext", (html, options) => {
     icon: '<i class="fas fa-times"></i>',
     condition: li => {
       const actor = game.actors.get(li.data("entityId"));
-      return actor.getFlag("worldbuilding", "isTemplate");
+      return actor.getFlag("doomcricket", "isTemplate");
     },
     callback: li => {
       const actor = game.actors.get(li.data("entityId"));
-      actor.setFlag("worldbuilding", "isTemplate", false);
+      actor.setFlag("doomcricket", "isTemplate", false);
     }
   });
 });
@@ -143,11 +143,11 @@ Hooks.on("getItemDirectoryEntryContext", (html, options) => {
     icon: '<i class="fas fa-stamp"></i>',
     condition: li => {
       const item = game.items.get(li.data("entityId"));
-      return !item.getFlag("worldbuilding", "isTemplate");
+      return !item.getFlag("doomcricket", "isTemplate");
     },
     callback: li => {
       const item = game.items.get(li.data("entityId"));
-      item.setFlag("worldbuilding", "isTemplate", true);
+      item.setFlag("doomcricket", "isTemplate", true);
     }
   });
 
@@ -157,11 +157,11 @@ Hooks.on("getItemDirectoryEntryContext", (html, options) => {
     icon: '<i class="fas fa-times"></i>',
     condition: li => {
       const item = game.items.get(li.data("entityId"));
-      return item.getFlag("worldbuilding", "isTemplate");
+      return item.getFlag("doomcricket", "isTemplate");
     },
     callback: li => {
       const item = game.items.get(li.data("entityId"));
-      item.setFlag("worldbuilding", "isTemplate", false);
+      item.setFlag("doomcricket", "isTemplate", false);
     }
   });
 });

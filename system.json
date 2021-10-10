@@ -2,9 +2,9 @@
   "name": "doomcricket",
   "title": "Doom Cricket",
   "description": "The rules of cricket. The tools of war.",
-  "version": "0.0.7",
-  "minimumCoreVersion": "0.8.4",
-  "compatibleCoreVersion": "0.8.6",
+  "version": "0.0.8",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "0.8.9",
   "author": "Kraken Mare Interactive",
   "esmodules": ["module/simple.js"],
   "styles": ["styles/simple.css"],
@@ -22,6 +22,6 @@
   "secondaryTokenAttribute": "power",
   "url": "https://github.com/KrakenMare-Interactive/foundry-vtt-doomcricket",
   "manifest": "https://raw.githubusercontent.com/KrakenMare-Interactive/doom-cricket-foundry-vtt/main/system.json",
-  "download": "https://github.com/KrakenMare-Interactive/doom-cricket-foundry-vtt/archive/refs/tags/v0.0.7.zip",
+  "download": "https://github.com/KrakenMare-Interactive/doom-cricket-foundry-vtt/archive/refs/tags/v0.0.8.zip",
   "license": "LICENSE.txt"
 }
